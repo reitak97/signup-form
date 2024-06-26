@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-half">
+        <img src="photo-1585202900225-6d3ac20a6962.avif">
+        <img src="odin-lined.png" id="icon">
+     </div>
+
+
+
+    <div class="right-half">
+        <div class="header">
+            <h1>
+                This is not a real online service! You know you need sommethingl ike this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+            </h1>
+            <br>
+            <h1>
+                You know you want to.
+            </h1>
+        </div>
+
+        <div class="form">
+            <h1>Let's do this!</h1>
+            <br>
+            <form action="signup.php" method="post">
+                <div class="form-group">
+                    <div class="left-form">
+                        <label for="name">FIRST NAME</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">* PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="right-form">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                        <label for="phone">PHONE</label>
+                        <input type="text" name="phone" id="phone">
+                        <label for="confirm-password">* CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="create">
+            <button type="submit">CREATE ACCOUNT</button>
+        
+            <p>Already have an account? Log in</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
